@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace ClinicaOdontologica.Models;
+namespace ClinicaOdontologica.Modelos;
 
 [Table("recetas")]
 public class Receta

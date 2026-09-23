@@ -1,4 +1,4 @@
-namespace ClinicaOdontologica.Models;
+namespace ClinicaOdontologica.Modelos;
 
 public class ErrorViewModel
 {
