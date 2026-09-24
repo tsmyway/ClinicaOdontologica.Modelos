@@ -22,4 +22,6 @@ public class Consultorio
     [StringLength(100)]
     [Column("equipamiento_principal")]
     public string? EquipamientoPrincipal { get; set; }
+
+    public List<Cita> Citas { get; set; } = new List<Cita>();
 }

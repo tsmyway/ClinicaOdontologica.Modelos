@@ -18,4 +18,6 @@ public class Especialidad
     [StringLength(200)]
     [Column("descripcion")]
     public string? Descripcion { get; set; }
+    
+    public List<Odontologo> Odontologos { get; set; } = new List<Odontologo>();
 }

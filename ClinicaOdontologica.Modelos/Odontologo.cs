@@ -31,4 +31,6 @@ public class Odontologo
     
     [ForeignKey(nameof(IdEspecialidad))]
     public Especialidad Especialidad { get; set; } = null!;
+    
+    public List<Cita> Citas { get; set; } = new List<Cita>();
 }

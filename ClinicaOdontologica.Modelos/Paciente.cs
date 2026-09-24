@@ -40,4 +40,6 @@ public class Paciente
     public string? Telefono { get; set; }
     
     public HistorialMedico? HistorialMedico { get; set; }
+    
+    public List<Cita> Citas { get; set; } = new List<Cita>();
 }

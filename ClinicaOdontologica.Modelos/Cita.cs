@@ -44,4 +44,7 @@ public class Cita
     public Consultorio Consultorio { get; set; } = null!;
 
     public Factura? Factura { get; set; }
+    
+    public List<DetalleCita> DetallesCita { get; set; } = new List<DetalleCita>();
+    public List<Receta> Recetas { get; set; } = new List<Receta>();
 }
