@@ -1,0 +1,13 @@
+/home/anthony/RiderProjects/ClinicaOdontologica.Modelos/ClinicaOdontologica.Modelos/bin/Debug/net8.0/ClinicaOdontologica.Modelos.deps.json
+/home/anthony/RiderProjects/ClinicaOdontologica.Modelos/ClinicaOdontologica.Modelos/bin/Debug/net8.0/ClinicaOdontologica.Modelos.dll
+/home/anthony/RiderProjects/ClinicaOdontologica.Modelos/ClinicaOdontologica.Modelos/bin/Debug/net8.0/ClinicaOdontologica.Modelos.pdb
+/home/anthony/RiderProjects/ClinicaOdontologica.Modelos/ClinicaOdontologica.Modelos/obj/Debug/net8.0/ClinicaOdontologica.Modelos.csproj.AssemblyReference.cache
+/home/anthony/RiderProjects/ClinicaOdontologica.Modelos/ClinicaOdontologica.Modelos/obj/Debug/net8.0/ClinicaOdontologica.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+/home/anthony/RiderProjects/ClinicaOdontologica.Modelos/ClinicaOdontologica.Modelos/obj/Debug/net8.0/ClinicaOdontologica.Modelos.AssemblyInfoInputs.cache
+/home/anthony/RiderProjects/ClinicaOdontologica.Modelos/ClinicaOdontologica.Modelos/obj/Debug/net8.0/ClinicaOdontologica.Modelos.AssemblyInfo.cs
+/home/anthony/RiderProjects/ClinicaOdontologica.Modelos/ClinicaOdontologica.Modelos/obj/Debug/net8.0/ClinicaOdontologica.Modelos.csproj.CoreCompileInputs.cache
+/home/anthony/RiderProjects/ClinicaOdontologica.Modelos/ClinicaOdontologica.Modelos/obj/Debug/net8.0/ClinicaOdontologica.Modelos.sourcelink.json
+/home/anthony/RiderProjects/ClinicaOdontologica.Modelos/ClinicaOdontologica.Modelos/obj/Debug/net8.0/ClinicaOdontologica.Modelos.dll
+/home/anthony/RiderProjects/ClinicaOdontologica.Modelos/ClinicaOdontologica.Modelos/obj/Debug/net8.0/refint/ClinicaOdontologica.Modelos.dll
+/home/anthony/RiderProjects/ClinicaOdontologica.Modelos/ClinicaOdontologica.Modelos/obj/Debug/net8.0/ClinicaOdontologica.Modelos.pdb
+/home/anthony/RiderProjects/ClinicaOdontologica.Modelos/ClinicaOdontologica.Modelos/obj/Debug/net8.0/ref/ClinicaOdontologica.Modelos.dll
