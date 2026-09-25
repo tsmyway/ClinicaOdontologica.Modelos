@@ -1,13 +1,23 @@
+using Microsoft.EntityFrameworkCore;
+using ClinicaOdontologica.API.Data; // Asegúrate de que el namespace sea el correcto
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+// 1. REGISTRA EL SOPORTE PARA CONTROLADORES (Obligatorio para que funcione el Scaffolder)
+builder.Services.AddControllers();
+
+// 2. CONECTA TU BASE DE DATOS POSTGRESQL USANDO TU CADENA "APIContext"
+var connectionString = builder.Configuration.GetConnectionString("APIContext");
+builder.Services.AddDbContext<ClinicaOdontologicaAPIContext>(options =>
+    options.UseNpgsql(connectionString));
+
+// Configuración predeterminada de Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configuración del pipeline de HTTP
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -16,6 +26,10 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+// 3. MAPEA LAS RUTAS DE LOS CONTROLADORES
+app.MapControllers();
+
+// Puedes dejar el ejemplo de WeatherForecast abajo si quieres, o borrarlo.
 var summaries = new[]
 {
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
