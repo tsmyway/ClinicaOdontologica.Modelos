@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
 // 2. CONECTA TU BASE DE DATOS POSTGRESQL USANDO TU CADENA "APIContext"
-var connectionString = builder.Configuration.GetConnectionString("APIContext");
+var connectionString = builder.Configuration.GetConnectionString("ClinicaOdontologicaAPIContext");
 builder.Services.AddDbContext<ClinicaOdontologicaAPIContext>(options =>
     options.UseNpgsql(connectionString));
 
