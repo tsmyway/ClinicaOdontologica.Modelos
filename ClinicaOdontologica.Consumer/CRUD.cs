@@ -3,6 +3,8 @@ using Newtonsoft.Json;
 
 namespace ClinicaOdontologica.Consumer;
 
+// hola
+
 public static class CRUD<T>
 {
     public static string Endpoint { get; set; } = string.Empty;
