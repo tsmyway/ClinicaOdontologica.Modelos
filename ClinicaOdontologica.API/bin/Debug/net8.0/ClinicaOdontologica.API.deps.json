@@ -2207,10 +2207,7 @@
           "Swashbuckle.AspNetCore": "10.2.3"
         },
         "runtime": {
-          "ClinicaOdontologica.Modelos.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "ClinicaOdontologica.Modelos.dll": {}
         }
       }
     }

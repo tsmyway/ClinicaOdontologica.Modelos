@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace ClinicaOdontologica.Modelos;
 
@@ -27,5 +28,6 @@ public class HistorialMedico
     public int IdPaciente { get; set; }
     
     [ForeignKey(nameof(IdPaciente))]
-    public Paciente Paciente { get; set; } = null!;
+    [JsonIgnore]
+    public Paciente? Paciente { get; set; }
 }

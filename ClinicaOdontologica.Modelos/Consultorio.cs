@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace ClinicaOdontologica.Modelos;
 
@@ -22,6 +23,7 @@ public class Consultorio
     [StringLength(100)]
     [Column("equipamiento_principal")]
     public string? EquipamientoPrincipal { get; set; }
-
+    
+    [JsonIgnore]
     public List<Cita> Citas { get; set; } = new List<Cita>();
 }

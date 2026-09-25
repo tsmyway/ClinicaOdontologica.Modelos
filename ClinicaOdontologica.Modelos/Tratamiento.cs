@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace ClinicaOdontologica.Modelos;
 
@@ -22,6 +23,7 @@ public class Tratamiento
     [Required(ErrorMessage = "El campo {0} es obligatorio")]
     [Column("duracion_estimada_minutos")]
     public int DuracionEstimadaMinutos { get; set; }
-
+    
+    [JsonIgnore]
     public List<DetalleCita> DetallesCita { get; set; } = new List<DetalleCita>();
 }

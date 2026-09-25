@@ -287,9 +287,9 @@
 /home/anthony/RiderProjects/ClinicaOdontologica.Modelos/ClinicaOdontologica.API/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ClinicaOdontologica.API.props
 /home/anthony/RiderProjects/ClinicaOdontologica.Modelos/ClinicaOdontologica.API/obj/Debug/net8.0/staticwebassets.pack.json
 /home/anthony/RiderProjects/ClinicaOdontologica.Modelos/ClinicaOdontologica.API/obj/Debug/net8.0/scopedcss/bundle/ClinicaOdontologica.API.styles.css
-/home/anthony/RiderProjects/ClinicaOdontologica.Modelos/ClinicaOdontologica.API/obj/Debug/net8.0/ClinicaO.8D3CF20D.Up2Date
 /home/anthony/RiderProjects/ClinicaOdontologica.Modelos/ClinicaOdontologica.API/obj/Debug/net8.0/ClinicaOdontologica.API.dll
 /home/anthony/RiderProjects/ClinicaOdontologica.Modelos/ClinicaOdontologica.API/obj/Debug/net8.0/refint/ClinicaOdontologica.API.dll
 /home/anthony/RiderProjects/ClinicaOdontologica.Modelos/ClinicaOdontologica.API/obj/Debug/net8.0/ClinicaOdontologica.API.pdb
 /home/anthony/RiderProjects/ClinicaOdontologica.Modelos/ClinicaOdontologica.API/obj/Debug/net8.0/ClinicaOdontologica.API.genruntimeconfig.cache
 /home/anthony/RiderProjects/ClinicaOdontologica.Modelos/ClinicaOdontologica.API/obj/Debug/net8.0/ref/ClinicaOdontologica.API.dll
+/home/anthony/RiderProjects/ClinicaOdontologica.Modelos/ClinicaOdontologica.API/obj/Debug/net8.0/ClinicaOdontologica.API.csproj.CopyComplete

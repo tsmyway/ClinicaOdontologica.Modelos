@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace ClinicaOdontologica.Modelos;
 
@@ -35,5 +36,6 @@ public class Factura
     public int IdCita { get; set; }
     
     [ForeignKey(nameof(IdCita))]
-    public Cita Cita { get; set; } = null!;
+    [JsonIgnore]
+    public Cita? Cita { get; set; }
 }

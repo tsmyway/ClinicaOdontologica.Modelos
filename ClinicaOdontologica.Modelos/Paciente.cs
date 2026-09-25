@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace ClinicaOdontologica.Modelos;
 
@@ -39,7 +40,9 @@ public class Paciente
     [Column("telefono")]
     public string? Telefono { get; set; }
     
+    [JsonIgnore]
     public HistorialMedico? HistorialMedico { get; set; }
     
+    [JsonIgnore]
     public List<Cita> Citas { get; set; } = new List<Cita>();
 }

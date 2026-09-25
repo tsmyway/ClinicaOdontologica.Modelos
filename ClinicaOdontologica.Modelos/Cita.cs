@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace ClinicaOdontologica.Modelos;
 
@@ -35,16 +36,23 @@ public class Cita
     public int IdConsultorio { get; set; }
     
     [ForeignKey(nameof(IdPaciente))]
-    public Paciente Paciente { get; set; } = null!;
+    [JsonIgnore]
+    public Paciente? Paciente { get; set; }
 
     [ForeignKey(nameof(IdOdontologo))]
-    public Odontologo Odontologo { get; set; } = null!;
+    [JsonIgnore]
+    public Odontologo? Odontologo { get; set; }
 
     [ForeignKey(nameof(IdConsultorio))]
-    public Consultorio Consultorio { get; set; } = null!;
-
+    [JsonIgnore]
+    public Consultorio? Consultorio { get; set; }
+    
+    [JsonIgnore]
     public Factura? Factura { get; set; }
     
+    [JsonIgnore]
     public List<DetalleCita> DetallesCita { get; set; } = new List<DetalleCita>();
+    
+    [JsonIgnore]
     public List<Receta> Recetas { get; set; } = new List<Receta>();
 }

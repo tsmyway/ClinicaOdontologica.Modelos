@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace ClinicaOdontologica.Modelos;
 
@@ -30,7 +31,9 @@ public class Odontologo
     public int IdEspecialidad { get; set; }
     
     [ForeignKey(nameof(IdEspecialidad))]
-    public Especialidad Especialidad { get; set; } = null!;
+    [JsonIgnore]
+    public Especialidad? Especialidad { get; set; }
     
+    [JsonIgnore]
     public List<Cita> Citas { get; set; } = new List<Cita>();
 }

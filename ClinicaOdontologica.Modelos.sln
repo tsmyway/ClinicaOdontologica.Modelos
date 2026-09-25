@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicaOdontologica.Modelos
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicaOdontologica.API", "ClinicaOdontologica.API\ClinicaOdontologica.API.csproj", "{C252C0FD-D223-48DA-845C-F7BDCA7D596B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicaOdontologica.Consumer", "ClinicaOdontologica.Consumer\ClinicaOdontologica.Consumer.csproj", "{7D4DE98E-FED0-487A-B799-8293682AA79B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{C252C0FD-D223-48DA-845C-F7BDCA7D596B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C252C0FD-D223-48DA-845C-F7BDCA7D596B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C252C0FD-D223-48DA-845C-F7BDCA7D596B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D4DE98E-FED0-487A-B799-8293682AA79B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D4DE98E-FED0-487A-B799-8293682AA79B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D4DE98E-FED0-487A-B799-8293682AA79B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D4DE98E-FED0-487A-B799-8293682AA79B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

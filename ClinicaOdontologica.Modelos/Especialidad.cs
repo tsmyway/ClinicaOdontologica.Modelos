@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace ClinicaOdontologica.Modelos;
 
@@ -19,5 +20,6 @@ public class Especialidad
     [Column("descripcion")]
     public string? Descripcion { get; set; }
     
+    [JsonIgnore]
     public List<Odontologo> Odontologos { get; set; } = new List<Odontologo>();
 }
